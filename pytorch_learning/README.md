@@ -115,7 +115,5 @@
 
 #### 5.通过代码来实现深度学习过程
 
-- 神经网络实现[手写数字识别](https://github.com/BI4O/ML_git_repos/blob/master/pytorch_learning/pytorch%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB.ipynb
-
-  )
+- 神经网络实现[手写数字识别](https://github.com/BI4O/ML_git_repos/blob/master/pytorch_learning/pytorch%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB.ipynb)
 
