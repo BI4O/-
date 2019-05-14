@@ -91,7 +91,7 @@
   - 有了前面的三个主要部分就可以开始训练模型
 
     ```python
-    epochs = 10  # 遍历整个数据集5次
+    epochs = 10  # 遍历整个数据集10次
     for e in range(epochs):
         # 损失函数容器
         running_loss = 0
@@ -113,7 +113,12 @@
         print(f'Training loss:{running_loss/len(trainloader)}')
     ```
 
-#### 5.通过代码来实现深度学习过程
+#### 5.Pytorch代码实现实践
 
 - 神经网络实现[手写数字识别](https://github.com/BI4O/ML_git_repos/blob/master/pytorch_learning/pytorch%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB.ipynb)
+
+* 神经网络实现[线性回归](https://github.com/BI4O/ML_git_repos/blob/master/pytorch_learning/Pytorch%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%AE%9E%E7%8E%B0%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.ipynb)
+
+* 神经网络实现[逻辑回归](https://github.com/BI4O/ML_git_repos/blob/master/pytorch_learning/Pytorch%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%AE%9E%E7%8E%B0%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92.ipynb)
+* 神经网络实时[Drop正则化避免过拟合](https://github.com/BI4O/ML_git_repos/blob/master/pytorch_learning/Pytorch%E6%9C%8D%E9%A5%B0%E5%88%86%E7%B1%BB%E5%AE%9E%E8%B7%B5%EF%BC%88%E6%B7%BB%E5%8A%A0%E6%AD%A3%E5%88%99%E5%8C%96%E9%81%BF%E5%85%8D%E8%BF%87%E6%8B%9F%E5%90%88%EF%BC%89.ipynb)
 
